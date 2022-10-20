@@ -5,6 +5,7 @@ libraries for signin and signup on AWS Cognito.
 ## Setup
 
 * Create a new User Pool and Client Application via AWS Cognito.
+  __NOTE__: Do not add a client secret to your Client Application. The AWS Cognito dependency doesn't support client secrets.
 * Add Client Id and User Pool Id to .env file (See .sample.env)
 
 ## Signup
