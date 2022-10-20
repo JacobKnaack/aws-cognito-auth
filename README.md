@@ -4,7 +4,8 @@ libraries for signin and signup on AWS Cognito.
 
 ## Setup
 
-Create a new User Pool and Client Application via AWS Cognito.
+* Create a new User Pool and Client Application via AWS Cognito.
+* Add Client Id and User Pool Id to .env file (See .sample.env)
 
 ## Signup
 
